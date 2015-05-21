@@ -1,0 +1,13 @@
+#include<stdio.h>
+{
+  int a,b,c,d,i;
+  a=c=0;
+  for(int i=0;i<10;i+=2)
+  {
+    a+=i;
+    b=a+1;
+    c+=b;
+  }
+  printf("even=%d\n",a);
+  printf("odd=%d\n",c-11);
+}
